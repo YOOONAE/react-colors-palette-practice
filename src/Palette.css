@@ -1,0 +1,24 @@
+.Palette {
+  height: 100vh;
+  /* display: flex;
+    flex-direction: column; */
+}
+
+.Palette-Colors {
+  height: 90%;
+}
+
+.Footer-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: lightgrey;
+  height: 5vh;
+  font-weight: 700;
+}
+
+.Footer-container > span {
+  display: flex;
+  justify-content: center;
+  background-origin: red;
+}

@@ -1,0 +1,22 @@
+.innerContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-weight: 600;
+}
+
+.innerContainer:hover .inBoxTrash {
+    color: white;
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+.inBoxName {
+    margin-left: 0.5rem;
+}
+
+.inBoxTrash {
+    margin-right: 0.5rem;
+}

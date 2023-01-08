@@ -1,0 +1,40 @@
+.Navbar {
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Slider {
+    width: 350px;
+    margin-right: auto;
+}
+
+.Logo {
+    width: 20%;
+    background-color: lightgrey;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    font-weight: 700;
+}
+
+.Level {
+    margin-right: 1rem;
+}
+
+.rc-slider-handle {
+    background-color:green;
+}
+
+.rc-slider-track {
+    background-color: transparent;
+}
+
+.Select-container {
+    /* margin-left: auto; */
+    width: 20%;
+}
