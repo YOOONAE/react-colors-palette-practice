@@ -42,9 +42,7 @@ function MiniPalette(props) {
 
   return (
     <Box sx={sxStyle.palette} className='palette'>
-      {/* <div className='deleteBtnContainer'> */}
         <DeleteIcon className='deleteBtn' onClick={handleDeleteBtn}/>
-      {/* </div> */}
       <div className='miniPaletteContainer' label='miniPaletteContainer'>{miniColorBoxes}</div>
       <div className='title'>
         {paletteName}
